@@ -146,16 +146,24 @@ p {
 
 /* Footer */
 footer {
+    background: #007BFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 400px; /* Adjust this value for a smaller container */
     text-align: center;
     padding: 15px 0;
-    background: #007BFF;
     color: white;
-    width: 100%;
 }
 
 footer p {
     margin: 0;
 }
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
